@@ -3,6 +3,15 @@
  * solving algorithm!
  */
 
+/**
+ * Checks if a guess matches the answer by comparing each character.
+ *
+ * @param {string} guess - The guess to be checked.
+ * @param {string} answer - The correct answer.
+ * @return {Array} An array of objects representing the status of each character in the guess.
+ * Each object has two properties: 'letter' (the character) and 'status' (either 'correct', 'misplaced', or 'incorrect').
+ * Returns null if the guess is empty.
+ */
 export function checkGuess(guess, answer) {
   // This constant is a placeholder that indicates we've successfully
   // dealt with this character (it's correct, or misplaced).

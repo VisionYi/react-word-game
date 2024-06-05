@@ -230,3 +230,11 @@ h1 {
     transform: translateY(0%);
   }
 }
+
+.reset-btn {
+  padding: 8px;
+  border-radius: 4px;
+  border: 2px solid var(--color-gray-300);
+  color: #fff;
+  cursor: pointer;
+}

@@ -1,5 +1,12 @@
 # Word Game
 
+## Todo list
+- [x] Finish game
+- [ ] Stretch Goals
+  - [x] Add reset button
+  - [ ] Add keyboard
+- [ ] Deploy to Github page
+
 ## Joy of React, Project I
 
 In this project, we'll recreate a popular online word game, Wordle:
